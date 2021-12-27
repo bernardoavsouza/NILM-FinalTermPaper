@@ -236,7 +236,7 @@ def cluster_merging_low(df):
     merging_memory = 0
     clusters_low = df_low['cluster'].unique()
     means_low = means_low_temp
-    s
+
     for i in range(1, len(means_low_temp)):
         if abs(means_low_temp[i] - means_low_temp[i-1]) < SETTINGS['merging_thr']:
             df_low.loc[df_low['cluster'] == clusters_low[i], 'cluster'] = clusters_low[i-1] - merging_memory

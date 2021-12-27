@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Jul 25 15:41:30 2021
 
 @author: Bernardo A V de Souza
+
+
 """
 
 import functions as f 
