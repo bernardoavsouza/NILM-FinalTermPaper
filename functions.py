@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Sep 30 18:23:42 2021
 
 @author: Bernardo A V de Souza
+
+
 """
 
 
@@ -25,7 +26,7 @@ SETTINGS = {
         'noise_thr' : 20,
         'cluster_thr' : 100,
         'merging_thr' : 100,
-        'pairing_event_thr : 230,
+        'pairing_event_thr' : 230,
         'plot_num' : 0,
         }
 
